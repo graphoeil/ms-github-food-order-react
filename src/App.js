@@ -9,10 +9,12 @@ function App() {
 	// Show cart ?
 	const [showCart, setShowCart] = useState(false);
 
-	// Show / hide cart
+	// Show cart
 	const showCartHandler = () => {
 		setShowCart(true);
 	};
+
+	// Hide cart
 	const hideCartHandler = () => {
 		setShowCart(false);
 	};
